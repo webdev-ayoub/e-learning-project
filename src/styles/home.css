@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter-Thin.otf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter-Bold.otf");
+    font-style: normal;
+    font-weight: 600;
+}
+
+.hero {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home-circle {
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+    z-index: -1;
+}
+
+.section1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 5em;
+    padding-left: 4em;
+}
+
+
+
+.slogan {
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.slogan h1 {
+    font-family: inter;
+    font-weight: 600;
+    font-size: 3.5em;
+
+}
+
+.slogan p {
+    font-family: inter;
+    font-weight: 100;
+    width: 80%;
+}
+
+.slogan span {
+    color: #1275EA;
+}
+
+.slogan-btn {
+    padding: 15px 30px;
+    background: #1275EA;
+    border: 1px solid #1275EA;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+}
+
+.section2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 6em;
+}
+
+.section2 img {
+    position: absolute;
+    right: 20%;
+    border-radius: 50%;
+    width: 70%;
+    width: 370px;
+    height: 370px;
+}
+
+.empty-circle {
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    z-index: -1;
+}
+
+.section3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 7em;
+}
+
+.section3 img {
+    width: 100%;
+    padding: 0 3em;
+}
